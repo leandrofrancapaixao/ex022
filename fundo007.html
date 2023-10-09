@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alinhaemnto vertical</title>
+    <style>
+       #container {
+            position: relative; /* tags fazer alinhamento vertical */
+            height: 96vh;
+            padding: 10px;
+            background-color: aqua;
+       }
+
+       #conteudo {
+           position: absolute; /* tags fazer alinhamento vertical */
+           height: 200px;
+           width: 500px;
+           background-color: yellow; 
+           left: 50%; /* tags fazer alinhamento vertical distancia esquerda */
+           top: 50%;  /* tags fazer alinhamento vertical distancia topo */
+           transform: translate(-50% , -50%); /* mexe o conteudo para esquerda e direita */
+       }
+    </style>
+</head>
+<body>
+   <section id="container">
+      <article id="conteudo">
+
+      </article>
+   </section>
+</body>
+</html>
